@@ -18,3 +18,6 @@ Calendar
 		3.2 Add a little image on monthly and weekly view pertaining to event(optional)
 	4. Share(optional)
 		4.1 Share event with other users via internet (requires permission)
+	5. User Accounts
+		5.1 Allow people to register so they can use the calendar(need for optional sharing)
+		
