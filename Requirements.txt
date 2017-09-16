@@ -51,8 +51,7 @@ Functional Requirements:
 	5.3 The system will ask for a starting and ending time.
 	5.4 The system will display an option for finishing an event.
 	5.5 The system will then update the event to all views of the calander.
-	5.6 If there is a conflict in time, there will be given a notice about overlapping times. The 
-		system will ask would tell you that you cannot have overlapping events.
+	5.6 If there is a conflict in time, there will be given a notice about overlapping times.
 	5.7 The system will ask if the user would like to make the event a weekly event or monthly event.
 		If yes, then the system will make the same event on the same day of the week or on the same
 		day of the month for the calendar.
