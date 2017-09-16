@@ -31,5 +31,50 @@ Functional Requirements:
 	2.4 If a specific date has an event, the system will show the name of the event in 
 		the box designated for the specific day.
 
-
-
+3. The WV will show all days in a week, snippet for each day
+	3.1 The system shall display the month followed by the week at the top of the screen
+		(i.e September 3 - 9), with a choice to go forward and backwards through the weeks.
+	3.2 The system shall display each day of the week, in accordance to the specific week.
+	3.3 If a specific date has an event, the system will show the name of the event in the box 
+		designated for the specific day.
+		
+4. The DV will show all the events in a day, sorted by starting time
+	4.1 The system will display the month and day at the top of the screen.
+	4.2 The system will display one hour time intervals in terms of AM and PM times.
+	4.3 If the date has an event, the system will show the name of the event in the specified time. 
+		It will also shade a portion of the time intervals to give a visual representation of the
+		event time duration.
+		
+5. Adding an event
+	5.1 The system will display an option to click to add an event.
+	5.2 The system will ask for an Event Name.
+	5.3 The system will ask for a starting and ending time.
+	5.4 The system will display an option for finishing an event.
+	5.5 The system will then update the event to all views of the calander.
+	5.6 If there is a conflict in time, there will be given a notice about overlapping times. The 
+		system will ask would tell you that you cannot have overlapping events.
+	5.7 The system will ask if the user would like to make the event a weekly event or monthly event.
+		If yes, then the system will make the same event on the same day of the week or on the same
+		day of the month for the calendar.
+	5.8 The system will have preset event categories to the system and will be indicated by color
+		5.8.1 Meetings will be blue.
+		5.8.2 Due Dates will be red.
+		5.8.3 Birthdays will be green.
+		5.8.4 National Holidays will be orange.
+		
+6. Deleting or editing an event
+	6.1 The system will give an option to modify and event. It will ask if you would like to modify or 
+		delete the event.
+		6.1.1 If the user chooses to modify the event, the same menu options as adding an event will
+			be given.
+		6.1.2 If the user chooses to delete the event, the event will be deleted from all views of the
+			calendar.
+	
+	
+	
+	
+	
+	
+	
+	
+	
