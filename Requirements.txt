@@ -68,7 +68,18 @@ Functional Requirements:
 			be given.
 		6.1.2 If the user chooses to delete the event, the event will be deleted from all views of the
 			calendar.
+			
+7 Special Events
+	7.1 The system will use all the same functionality as regular events
+	7.2 The system will use a reserved color
+	7.3 The system will show a image on monthly and weekly view (optional)
 	
+8 Share Event (optional)
+	8.1 The system will create a bundle of the event information
+		8.1.1 The system will use standard JSON format, which allows other API's to use the data
+	8.2 The system will have a 2 step verification process for receiving events
+	8.3 The system will not allow indirect shares
+		8.3.1 Only the user who creates the event can share	
 	
 	
 	
