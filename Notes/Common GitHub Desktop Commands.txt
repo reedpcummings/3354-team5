@@ -1,0 +1,23 @@
+// set current directory
+right click on folder
+Open Git Bash here option
+
+// adds all files, folder and subfolder in current git bash directory
+git add *
+
+// commit changes to local master
+git commit -m "<Message>"
+
+// push to url master
+git push -u origin master
+
+
+
+// Websites
+#1
+https://stackoverflow.com/questions/8775850/how-do-i-add-files-and-folders-into-github-repos
+
+
+Unchecked
+https://stackoverflow.com/questions/12258399/how-to-create-folder-in-github-repository
+https://stackoverflow.com/questions/8961334/how-to-change-folder-with-git-bash
