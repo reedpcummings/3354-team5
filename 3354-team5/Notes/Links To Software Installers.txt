@@ -1,0 +1,19 @@
+This file contains links to all the Softwares for use on the project
+
+Diagrams (let's offset our evaluation copies, 1 team member every 30 days)
+https://www.visual-paradigm.com/download/
+
+IDE (Java 8)
+https://netbeans.org/downloads/
+
+JDK Version (Java 8)
+http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+GUI Manager (Java 8)
+http://gluonhq.com/products/scene-builder/
+
+GitHub Desktop
+https://desktop.github.com/
+
+Git for Windows
+https://git-for-windows.github.io/

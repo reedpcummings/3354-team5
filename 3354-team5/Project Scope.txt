@@ -1,0 +1,23 @@
+Projet Scope
+
+Calendar
+	1. Views
+		1.1 Monthly View: Show all days in a month, snippet for each day
+		1.2 Weekly View: Show all days in a week, snippet for each day
+		1.3 Daily View: Show all evernts in a day, sorted by starting time
+	2. Events
+		2.1 Add event(starting and ending time)
+		2.2 Make sure nothing conflicts when adding new event
+		2.3 Be able to make weeks periodical(weekly, daily, monthly(optional), so forth)
+		2.4 Edit and delete events
+		2.5 Event alert(optional)
+		2.6 Add and delete event categories(meeting, due date, etc.)
+		2.7 Color Marking for different category of events(red or due date, etc.)
+	3. Special Events(Holidays & Weekends & Birthdays in different Color)
+		3.1 Special dates in differnet color
+		3.2 Add a little image on monthly and weekly view pertaining to event(optional)
+	4. Share(optional)
+		4.1 Share event with other users via internet (requires permission)
+	5. User Accounts
+		5.1 Allow people to register so they can use the calendar(need for optional sharing)
+		

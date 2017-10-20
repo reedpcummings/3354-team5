@@ -1,0 +1,27 @@
+Class Diagram Changes
+	Additions
+		Class
+			Model
+			Controller
+			View
+		Relation
+			Model (has a) UserDatabase (and still exists without one)
+
+		Method
+			None
+		Attribute
+			None
+			
+	Deleletions
+		Class Deletions
+			MakeCalendar replaced with Controller
+	
+	Modifications
+		Class
+			None
+		Relation
+			User (uses) Login
+		Method
+			None
+		Attribute
+			None
