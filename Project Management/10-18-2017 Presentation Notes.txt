@@ -1,0 +1,47 @@
+10-18-2017 Presentation Notes
+
+	Material
+		Reed	- Intro and 1st requirements
+		Ahquan	- Remaining requirements
+		Alex	- Class diagram, Use Case, Facebook API research
+		Brian	- Sequence diagrams, Class Diagram support
+		
+	Dr. Shiyi Questions
+		Functional requirements
+			How do we plan to store the Users information securley?
+				He reccomends seperate addon
+				crytology
+				Talk to him offline
+		
+		Class Diagram	
+			How do we store an event?
+				We currently store all invents in the User object
+				Might be worth re thinking this functionality
+				Did not elaborate during presentation
+		
+		Share
+			Is there verification on the recieving end of the share?
+				Dr. Shiyi pointed out a spamming flaw
+				Defenetly need to lock this up, if we plan to implement this optional requirements
+				
+	Dr. Shiyi Feedback to Entire Class	
+	
+		1.) Calendars
+			
+			Lots of groups mentioned the issue of not knowing how the design is planned out
+			Lots of GUI heavy projects don't have a clear concept of how to switch between views
+			
+			He reccomendeds 
+				Elicitation
+				
+			What this means to our group
+				We must wrap up the planning stage this weekend (10-22-2017)
+					It can have flaws, but it must be complete so we have a starting point
+					
+		2.) Andriod development
+		
+			He reccomendeds
+				Andriod development tutorial on Elearning
+			
+			What this means to our group
+				Nothing at this time because we are designing a desktop app
