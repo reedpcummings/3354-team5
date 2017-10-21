@@ -1,0 +1,39 @@
+10-20-2017 Tasks
+
+All
+	Download Standard Software Packages (links found in the Notes folder)
+	Review MVC notes for a brief overview of the implementation (open the webpages in the MVC notes file for images)
+		We all need to understand this concept
+			The User, interacts with the View, which interacts with the Controller, to access Model which holds the data
+			
+			This seperation of the Model Data from the View will make our lives easier later in the project
+			
+	Review your diagrams, whatever you created so far is yours.
+			
+Individual
+	Model
+		Implement a Model Class
+		Implement a UserDatabase Class
+		Implement a User Class
+		
+		1.) Main must be able to instantiate a object of these classes
+		2.) The UserDatabase class must be able to save data to a text file
+			This allows app to close and retain data for next session
+		
+	View 
+		Implement a View Class
+		Implement a Login Class
+		1.) Main must be able to instantiate a object of these classes
+		2.) Main must be able to open and close a window using this class
+		3.) Main must be able to create a User object with the Login class that is part of the View class
+			The Login can accept standard data (int, string, whatever)
+			The View will send standard data -> to the Controller, which operatres on data (ie formats to JSON) -> to the Model for storing
+		
+	Controller
+		Implement a Controller Class
+		Implement a Formatter Class
+		1.) Main must be able to instantiate a object of these classes
+		2.) Main must be able to send data from the Model class, using the Controller class, to the View class
+		3.) Main must be able to recieve data from the Model class, using the Controller class, from the View class
+		4.) The Formatter Class must accept standard data, and turn it into JSON
+			This is one of the current hot languages, and we will have more API access later if we use this style
