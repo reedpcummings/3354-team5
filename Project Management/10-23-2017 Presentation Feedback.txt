@@ -1,0 +1,27 @@
+10-23-2017 Presentation Feedback
+
+	Material
+		Reed	- Intro and 1st requirements
+		Ahquan	- Remaining requirements
+		Alex	- Class diagram, Use Case, Facebook API research
+		Brian	- Sequence diagrams, Class Diagram support
+		
+				
+	Dr. Shiyi Feedback to our Group Specifically
+	
+	Good job presenting your project!
+
+	Comments on requirements:
+
+	1. "Secure" login can be a complicated feature to implement. 
+	It is recommended to realize other basic features before digging into the security aspects of the system (basic login/registration feature is welcomed).
+
+	Comments on class diagram:
+
+	1. I am not sure about a few "generalization" relations in the diagram. For example, what does it mean "Login" is a "User" and "User" is a "MakeCalendar"?
+
+	2. When an event is added/edited/shared, the "events" field of User will be changed, right?
+
+	3. I suggest you implement the basic add/edit events before "share".
+
+	Shiyi
