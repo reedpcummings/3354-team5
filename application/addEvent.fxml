@@ -14,11 +14,11 @@
          </font>
       </Text>
       <Label layoutX="31.0" layoutY="134.0" text="Event Name:" />
-      <TextField layoutX="178.0" layoutY="129.0" />
+      <TextField id="eventName" fx:id="eventName" layoutX="178.0" layoutY="129.0" />
       <Label layoutX="38.0" layoutY="272.0" text="End Time:" />
-      <TextField layoutX="178.0" layoutY="201.0" />
+      <TextField id="e_endTime" fx:id="e_endTime" layoutX="178.0" layoutY="201.0" />
       <Label layoutX="38.0" layoutY="206.0" text="Start Time:" />
-      <TextField layoutX="178.0" layoutY="267.0" />
+      <TextField id="e_startTime" fx:id="e_startTime" layoutX="178.0" layoutY="267.0" />
       <DatePicker layoutX="178.0" layoutY="360.0" />
       <Label layoutX="38.0" layoutY="365.0" text="Choose Date:" />
       <Button layoutX="218.0" layoutY="441.0" mnemonicParsing="false" onAction="#createEvent" text="Submit" />
