@@ -7,10 +7,9 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="750.0" prefWidth="750.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+<AnchorPane prefHeight="1000.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MonthlyViewController">
    <children>
-      <GridPane alignment="BOTTOM_CENTER" gridLinesVisible="true" layoutY="150.0" prefHeight="600.0" prefWidth="750.0">
+      <GridPane alignment="BOTTOM_CENTER" gridLinesVisible="true" layoutY="150.0" prefHeight="850.0" prefWidth="1250.0">
         <columnConstraints>
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -39,10 +38,23 @@
             <Label text="Saturday" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
          </children>
       </GridPane>
-      <Text layoutX="187.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Month Name" textAlignment="CENTER">
+      <Text layoutX="437.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Month Name" textAlignment="CENTER">
          <font>
             <Font size="64.0" />
          </font>
       </Text>
+      <SplitMenuButton alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="609.0" mnemonicParsing="false" onAction="#goToWeeklyView" text="Change View" textAlignment="CENTER" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Monthly View" />
+          <MenuItem mnemonicParsing="false" text="Weekly View" />
+          <MenuItem mnemonicParsing="false" text="Daily View" />
+        </items>
+      </SplitMenuButton>
+      <SplitMenuButton layoutX="-1.0" layoutY="-1.0" mnemonicParsing="false" onAction="#goToAddEventView" text="Add Event">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Add Event" />
+          <MenuItem mnemonicParsing="false" text="Edit Event" />
+        </items>
+      </SplitMenuButton>
    </children>
 </AnchorPane>
