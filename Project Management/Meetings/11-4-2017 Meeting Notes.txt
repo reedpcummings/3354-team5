@@ -1,0 +1,27 @@
+From Greg and Nick (Developer friends)
+	Only do data transfers through controller
+
+	Use view class to adjust the display
+
+
+	Class Diagram
+		User Should be part of the model
+		Not inherit from Logn
+		
+		Login should be it's own view
+		   then transfer to controller
+	   
+
+	Standard Naming of Objects
+	
+	
+Tasks
+-Think about how to show events in the Calendar
+-Think about how to Store Events in the application
+---Writing and Loading from a file
+
+
+Items brought up during meeting
+-Showing events on Daily View
+---Show all times, events next to times
+---Show events in time order <- agreed on this option
