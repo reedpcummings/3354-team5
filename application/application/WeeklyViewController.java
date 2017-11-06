@@ -15,25 +15,8 @@ import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.text.Text;
 
-public class WeeklyViewController {
+public class WeeklyViewController extends Controller{
 
-    @FXML
-    void goToAddEventView(ActionEvent event) {
 
-    	try{
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("addEvent.fxml"));
-            Parent root1 = (Parent) fxmlLoader.load();
-            Stage stage = new Stage();
-            stage.initModality(Modality.APPLICATION_MODAL);
-            stage.setTitle("Add Event");
-            stage.setScene(new Scene(root1));  
-            stage.show();
-          }
-		catch(Exception e){
-			e.printStackTrace();
-		}
-    	
-    	
-    }
 
 }
