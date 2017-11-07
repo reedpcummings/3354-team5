@@ -22,6 +22,7 @@ public class MakeCalendar extends Application {
 	
 	@Override
 	public void start(Stage primaryStage) throws IOException {
+		
 		FXMLLoader loader = new FXMLLoader(getClass().getResource("LogIn.fxml"));
 		Parent root = loader.load();
 		Scene scene = new Scene(root);
@@ -30,7 +31,14 @@ public class MakeCalendar extends Application {
 	}
 	
 	public static void main(String[] args) {
+		Model myModel = new Model();
+		View myView  = new View();
+		Controller myController = new Controller();
+		myController.setView(myView);
+		myController.setModel(myModel);
+		
 		launch(args);
+	    
 	}
 	
 

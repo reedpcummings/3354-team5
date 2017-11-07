@@ -14,7 +14,7 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 
-public class RegisterController {
+public class RegisterController extends Controller{
 
 	@FXML TextField username;
 	@FXML PasswordField password;
@@ -24,13 +24,32 @@ public class RegisterController {
     public static final String USER = "YOUR_DATABASE_USERNAME";
     public static final String PASSWORD = "YOUR_DATABASE_PASSWORD";
     public static final String DRIVER_CLASS = "com.mysql.jdbc.Driver";
+    
+	private String inputName;
+	private String inputUserName;
+	private String inputPassword;	
 	
 	@FXML
 	private void createAccount(ActionEvent event) {
 		 try
 		    {
-			 System.out.println("\nRegister Controller Activated");
 			 
+			 
+			 
+		      // Store user in variables
+		      
+		  	  inputName = fullname.getText();
+			  inputUserName = username.getText();
+			  inputPassword	= password.getText();  
+			  
+			  // send User to Controller, then to Model
+			  User UserBufferObject1 = new User(inputName,inputUserName,inputPassword);
+			  System.out.println(UserBufferObject1);
+		      this.addUser(UserBufferObject1);
+		      //model.mainDatabase.toString();
+		      
+			  System.out.println("\nRegister Controller Activated");
+			  
 			  // database block
 //		      // create a mysql database connection	      
 //		      Connection conn = DriverManager.getConnection(myurl, "root", "84738r");

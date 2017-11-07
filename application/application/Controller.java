@@ -1,5 +1,7 @@
 package application;
 
+import java.util.ArrayList;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -8,17 +10,32 @@ import javafx.scene.Scene;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
-public abstract class Controller {
-
+public class Controller {
+	
 
 	// attributes
-
-
+	protected Model model;
+	protected View view;
 	// constructors
 
-	// abstract methods
-
 	// methods
+	
+	public void addUser(User inputUser1){
+		System.out.println("\nAdding to Model with Controller");
+		System.out.println("\nUser: " + inputUser1);
+		model.addUser(inputUser1);
+	}	
+	
+    public void setModel(Model m){
+    	System.out.println("\nSetting Model for Controller");
+    	this.model = m;
+    	
+    }
+    public void setView(View v){
+    	System.out.println("\nSetting View for Controller");
+    	this.view = v;
+    }	
+    
 	// 11-6-2017 -- refactor number 1, pull up method
     @FXML
     void goToAddEventView(ActionEvent event) {
@@ -38,6 +55,7 @@ public abstract class Controller {
 
 
     }
+    
 
 
 }

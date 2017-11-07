@@ -19,7 +19,7 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 
-public class AddEventController {
+public class AddEventController extends Controller{
 
 	@FXML TextField e_Name;
 	@FXML TextField e_startTime;

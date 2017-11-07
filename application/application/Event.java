@@ -1,6 +1,6 @@
 package application;
 
-public class Event {
+public class Event{
 	
 	String eventName;
 	String eventStart;

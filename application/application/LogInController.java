@@ -14,7 +14,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.text.Text;
 
-public class LogInController {
+public class LogInController extends Controller{
 
 	
 	public void initiialize() {
