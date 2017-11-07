@@ -29,24 +29,28 @@ public class RegisterController {
 	private void createAccount(ActionEvent event) {
 		 try
 		    {
-		      // create a mysql database connection	      
-		      Connection conn = DriverManager.getConnection(myurl, "root", "84738r");
-		    
-		      // the mysql insert statement
-		      String insert = " insert into users values(" + username.getText() + "," + password.getText() + "," + fullname.getText() + ");";
-
-		      // create the mysql insert preparedstatement
-		      PreparedStatement preparedStmt = conn.prepareStatement(insert);
-		     
-		     
-
-		      // execute the preparedstatement
-		      preparedStmt.execute();
-		      
-		      conn.close();
+			 System.out.println("\nRegister Controller Activated");
+			 
+			  // database block
+//		      // create a mysql database connection	      
+//		      Connection conn = DriverManager.getConnection(myurl, "root", "84738r");
+//		    
+//		      // the mysql insert statement
+//		      String insert = " insert into users values(" + username.getText() + "," + password.getText() + "," + fullname.getText() + ");";
+//
+//		      // create the mysql insert preparedstatement
+//		      PreparedStatement preparedStmt = conn.prepareStatement(insert);
+//		     
+//		     
+//
+//		      // execute the preparedstatement
+//		      preparedStmt.execute();
+//		      
+//		      conn.close();
 		    }
 		    catch (Exception e)
 		    {
+
 		      System.err.println("Got an exception!");
 		      System.err.println(e.getMessage());
 		    }

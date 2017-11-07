@@ -12,7 +12,10 @@
       <Label layoutX="208.0" layoutY="271.0" text="username:" />
       <PasswordField id="password" fx:id="password" layoutX="282.0" layoutY="303.0" onAction="#createAccount"/>
       <Label layoutX="208.0" layoutY="308.0" text="password:" />
-      <Button layoutX="315.0" layoutY="344.0" mnemonicParsing="false" onMouseClicked="#createAccount" text="create account" />
+      <!-- 
+		    this is a fxml comment, the line below used to cause a bug, onMouseClicked="#createAccount", caused crash
+	   -->
+      <Button layoutX="315.0" layoutY="344.0" mnemonicParsing="false" onAction="#createAccount" text="create account" />
       <Text layoutX="327.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="create account" textAlignment="CENTER" textOrigin="CENTER" />
       <TextField id="fullname" fx:id="fullname" layoutX="282.0" layoutY="230.0" onAction="#createAccount"/>
       <Label layoutX="208.0" layoutY="235.0" text="full name:" />
