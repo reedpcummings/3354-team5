@@ -1,4 +1,4 @@
-Folder structure
+Folder structure Notes
 	Root
 		holds application .css (not sure what this does, it's from Reed's initial post)
 		
