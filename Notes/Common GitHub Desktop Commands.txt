@@ -1,3 +1,5 @@
+// you will need to download Git for Windows, links in Software Installers
+
 // set current directory
 right click on folder
 Open Git Bash here option
