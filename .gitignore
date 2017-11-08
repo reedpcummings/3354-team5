@@ -1,6 +1,9 @@
-/LogIn.fxml
-/MonthlyView.fxml
-/Register.fxml
-/WeeklyView.fxml
-/addEvent.fxml
-/application/
+#include everything within /3354-team5/Calendar/
+!/3354-team5/Calendar/ 
+!/3354-team5/Calendar/*
+!3354-team5/Calendar/ 
+!3354-team5/Calendar/*
+!/Calendar/ 
+!/Calendar/*
+!/Calendar/bin/application/ 
+!/Calendar/bin/application/ *

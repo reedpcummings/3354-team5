@@ -21,6 +21,9 @@ git clean -files
 https://stackoverflow.com/questions/8775850/how-do-i-add-files-and-folders-into-github-repos
 
 
+// gitignore (globally include all files)
+https://stackoverflow.com/questions/26678955/un-ignore-all-files-in-global-gitignore
+
 Unchecked
 https://stackoverflow.com/questions/12258399/how-to-create-folder-in-github-repository
 https://stackoverflow.com/questions/8961334/how-to-change-folder-with-git-bash
