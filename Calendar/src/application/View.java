@@ -26,28 +26,26 @@ import java.math.*;
 // SE 3354.004
 // Software Engineering
 
-public class DailyView {
+public class View {
 
    // attributes
-   private String currentDay;
+   private View currentView;
 
 
    // constructors
    
    // getters
    
-   private String getDay(){
-      return this.currentDay;
+   private void getView(){
    }
    // setters
    
-   private void setDay(String Day){
-      this.currentDay = Day;
+   private void setView(){
    }
    
    // methods
    
-   private String displayTitle(String Day){
+   private String displayTitle(day Day){
       String titleString = "null";
       return titleString;
    }

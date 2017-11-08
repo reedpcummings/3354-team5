@@ -36,19 +36,20 @@ public class RegisterController extends Controller{
 			 
 			 
 			 
-		      // Store user in variables
-		      
+		      // Store user in buffer object
 		  	  inputName = fullname.getText();
 			  inputUserName = username.getText();
 			  inputPassword	= password.getText();  
-			  
-			  // send User to Controller, then to Model
 			  User UserBufferObject1 = new User(inputName,inputUserName,inputPassword);
+			  
+			  
 			  System.out.println(UserBufferObject1);
-		      this.addUser(UserBufferObject1);
-		      //model.mainDatabase.toString();
+			  // send User to Controller, then to Model
+		      super.addUser(UserBufferObject1);
 		      
-			  System.out.println("\nRegister Controller Activated");
+		      // print Database
+		      Model.mainDatabase.toString();
+		    
 			  
 			  // database block
 //		      // create a mysql database connection	      
