@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="750.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RegisterController">
+   <children>
+      <TextField id="username" fx:id="username" layoutX="282.0" layoutY="267.0" onAction="#createAccount" />
+      <Label layoutX="208.0" layoutY="271.0" text="username:" />
+      <PasswordField id="password" fx:id="password" layoutX="282.0" layoutY="303.0" onAction="#createAccount"/>
+      <Label layoutX="208.0" layoutY="308.0" text="password:" />
+      <!-- 
+		    this is a fxml comment, the line below used to cause a bug, onMouseClicked="#createAccount", caused crash
+	   -->
+      <Button layoutX="315.0" layoutY="344.0" mnemonicParsing="false" onAction="#createAccount" text="create account" />
+      <Text layoutX="327.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="create account" textAlignment="CENTER" textOrigin="CENTER" />
+      <TextField id="fullname" fx:id="fullname" layoutX="282.0" layoutY="230.0" onAction="#createAccount"/>
+      <Label layoutX="208.0" layoutY="235.0" text="full name:" />
+   </children>
+</AnchorPane>

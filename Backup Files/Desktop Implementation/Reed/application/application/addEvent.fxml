@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="750.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddEventController">
+   <children>
+      <Text layoutX="167.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Event" textAlignment="CENTER">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Text>
+      <Label layoutX="31.0" layoutY="134.0" text="Event Name:" />
+      <TextField id="eventName" fx:id="e_Name" layoutX="178.0" layoutY="129.0" />
+      <Label layoutX="38.0" layoutY="272.0" text="End Time:" />
+      <TextField id="e_endTime" fx:id="e_endTime" layoutX="178.0" layoutY="201.0" />
+      <Label layoutX="38.0" layoutY="206.0" text="Start Time:" />
+      <TextField id="e_startTime" fx:id="e_startTime" layoutX="178.0" layoutY="267.0" />
+      <DatePicker layoutX="178.0" layoutY="360.0" />
+      <Label layoutX="38.0" layoutY="365.0" text="Choose Date:" />
+      <Button layoutX="218.0" layoutY="441.0" mnemonicParsing="false" onAction="#createEvent" text="Submit" />
+   </children>
+</AnchorPane>
