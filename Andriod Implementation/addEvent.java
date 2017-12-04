@@ -221,7 +221,7 @@ public class addEvent extends Activity implements OnClickListener
         {
             minute_x = minute;
             
-            if( hourOfDay > 12 )
+            if( hourOfDay >= 12 )
             {
                 hour_x = hourOfDay - 12;
                 enteredEnd = " PM";
@@ -230,9 +230,10 @@ public class addEvent extends Activity implements OnClickListener
             {
                 hour_x = hourOfDay;
                 enteredEnd = " AM";
-                if (hour_x==0) {
-                    hour_x = 12; }
             }
+            
+            if (hour_x==0) {
+                hour_x = 12; }
             
             if( minute_x < 10 )
             {
