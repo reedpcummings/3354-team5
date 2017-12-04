@@ -219,39 +219,31 @@ public class addEvent extends Activity implements OnClickListener
         @Override
         public void onTimeSet(TimePicker view, int hourOfDay, int minute)
         {
+            minute_x = minute;
+            
             if( hourOfDay > 12 )
             {
                 hour_x = hourOfDay - 12;
-
-                minute_x = minute;
-                if(minute_x < 10)
-                {
-                    enteredEnd = hour_x + ":0" + minute_x + " PM";
-                }
-                else
-                {
-                    enteredEnd = hour_x + ":" + minute_x + " PM";
-                }
+                enteredEnd = " PM";
             }
             else
             {
                 hour_x = hourOfDay;
-                minute_x = minute;
-                if(hour_x == 0)
-                {
-                    hour_x = 12;
-                }
-                if(minute_x < 10)
-                {
-                    enteredEnd = hour_x + ":0" + minute_x + " AM";
-                }
-                else
-                {
-                    enteredEnd = hour_x + ":" + minute_x + " AM";
-                }
+                enteredEnd = " AM"
+                if (hour_x==0) {
+                    hour_x = 12; }
+            }
+            
+            if( minute_x < 10 )
+            {
+                enteredEnd = hour_x + ":0" + minute_x + enteredEnd;
+            }
+            else
+            {
+                enteredEnd = hour_x + ":" + minute_x + enteredEnd;
             }
             endTimePickedTextView.setText( enteredEnd );
-
+            
         }
     };
 
