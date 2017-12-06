@@ -1,23 +1,24 @@
 Anhquan Nguyenn
-	35%   
-	Led the Andriod Implementation
+	30%   
+	Led the Android Implementation
 	Wrote P3 Document
-
+	Continual testing through entire project life cycle
+	
 Reed Cummings
-	27.5%
+	24%
 	Led task distribution
 	Maintained code comment standards
 	Maintained MVC design pattern
-	Wrote test
+	Testing of Desktop implementation
 
 Brian Bell
-	27.5%
+	24%
 	Led testing effort before presentation
-	Wrote test for timePickerDialog
+	Wrote test for OnTimeSet
 	Discovered and fixed bug
 
 Alex Lundin
-	20%
+	23%
 	Maintained folder structure between all commits
 	Led artifact collection
-	Wrote test
+	Wrote test for OnDateSet
