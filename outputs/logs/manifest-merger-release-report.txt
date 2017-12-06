@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:2:1-68:12
+	package
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml
+application
+ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:5:5-66:19
+MERGED from [com.android.support:appcompat-v7:23.0.1] F:\Dropbox\calendar_app\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] F:\Dropbox\calendar_app\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:8:9-41
+	android:allowBackup
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:9:9-40
+activity#com.cs3354group09.calendar_app.ListViewActivity
+ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:11:9-19:20
+	android:label
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:13:13-45
+	android:name
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:12:13-45
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.cs3354group09.calendar_app.eventOverview
+ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:21:9-27:20
+	android:label
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:22:13-42
+intent-filter#android.intent.action.VIEW
+ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:24:13-26:29
+action#android.intent.action.VIEW
+ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:25:25-66
+activity#com.cs3354group09.calendar_app.addEvent
+ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:29:9-35:20
+	android:label
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:31:13-45
+	android:name
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:30:13-37
+activity#com.cs3354group09.calendar_app.CalendarWeeklyView
+ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:37:9-43:16
+	android:label
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:39:9-41
+	android:name
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:38:9-43
+activity#com.cs3354group09.calendar_app.dailyActivityView
+ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:45:5-51:16
+	android:label
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:47:9-41
+	android:name
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:46:9-42
+activity#com.cs3354group09.calendar_app.updateOverview
+ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:53:5-59:16
+	android:label
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:55:9-41
+	android:name
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:54:9-39
+activity#com.cs3354group09.calendar_app.CalendarMainActivity
+ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:62:9-65:20
+	android:label
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:64:13-45
+	android:name
+		ADDED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml:63:13-49
+uses-sdk
+INJECTED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.0.1] F:\Dropbox\calendar_app\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] F:\Dropbox\calendar_app\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Dropbox\calendar_app\app\src\main\AndroidManifest.xml
