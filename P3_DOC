@@ -1,7 +1,7 @@
 Design Pattern used
  1.) Model View Controller
       - Can be seen through the implementation. Controllers are the classes that add the functionality and control the
-        controls of the model. They include the different adaptors to manipulate the views, i.e BaseCalendarAdaptor, 
+        manipulation of the model. They include the different adaptors to manipulate the views, i.e BaseCalendarAdaptor, 
         CalendarListAdaptor, WeeklyCalendarAdaptor. The Views are the classes that show the individual views in Daily, Weekly, 
         Monthly  and List. Include dailyActivityView, CalendarWeeklyView, addEvent, eventOverview, updateOverview, 
         CalendarMainActivity, ListViewActivity. The Model are the classes define the current state of the program which 
@@ -38,4 +38,19 @@ Design Pattern used
       the top left. If all the information wanted is in, click the top right button that looks like a plus sign to add the 
       event. 
       
-      After an event is added that event is able to be seen through all the views of the application.
+      After an event is added that event is able to be seen through all the views of the application. When you look at the 
+      different views, you will see that indicated color you chose for the event. In the in the weekly and monthly views when
+      you click on the event day, a small window will pop up giving event information. There is a go to daily view option that
+      will show all the events occuring on that day, and a cancel option to get out of the window.
+      
+      Edit/Delete an Event
+      When you have the event in the calendar, you have the option to edit and delete an event. The edit option will only be 
+      available on the list view and daily view when you click the event box. To edit from the weekly and monthly views, you 
+      have to click on the event. Once the window pops up with event information, go to daily view for that event day and you 
+      can go to the edit page once you click on the event box. When you click the event, you are taken to a event overview page
+      that simply details all the information you inputted. There is an update info button below the 5 buttons on the top of 
+      every view, and a delete button indicated by a trash can icon at the top right corner. Clicking the delete button will 
+      open a confirmation window. Confirming deletes the event from the database, declining goes back to the event overview 
+      page. If you click update info, you can update all the fields of the event to whatever you would like. Once you are 
+      done press the save changes button and the event is saved. The calendar app will now update to the current information
+      in the database.
