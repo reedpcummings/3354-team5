@@ -1,0 +1,23 @@
+Anhquan Nguyenn
+	35%   
+	Led the Andriod Implementation
+	Wrote P3 Document
+
+Reed Cummings
+	27.5%
+	Led task distribution
+	Maintained code comment standards
+	Maintained MVC design pattern
+	Wrote test
+
+Brian Bell
+	27.5%
+	Led testing effort before presentation
+	Wrote test for timePickerDialog
+	Discovered and fixed bug
+
+Alex Lundin
+	20%
+	Maintained folder structure between all commits
+	Led artifact collection
+	Wrote test
