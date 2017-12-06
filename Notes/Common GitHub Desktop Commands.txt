@@ -7,11 +7,20 @@ Open Git Bash here option
 // adds all files, folder and subfolder in current git bash directory
 git add *
 
+
 // commit changes to local master
 git commit -m "<Message>"
 
 // push to url master
 git push -u origin master
+
+// show status of all files
+git status
+
+// remove any deletes folder and files from git
+git add -u 
+git commit -m "<removing deleted files from tracking>"
+git push origin master
 
 // show all UNTRACKED files in the stucture
 git clean -n
