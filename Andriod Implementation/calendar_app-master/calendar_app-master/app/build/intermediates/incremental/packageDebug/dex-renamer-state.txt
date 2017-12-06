@@ -1,0 +1,7 @@
+#Fri Nov 10 17:05:51 CST 2017
+base.0=/Users/LuckyNguyen/Downloads/calendar_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4833175e4fb554c15d77688dcbe9e7022da6f56e
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/LuckyNguyen/Downloads/calendar_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ccd6bf5bc6af0459d4afa6e2549dfdcbe43abf4d/classes.dex
+base.1=/Users/LuckyNguyen/Downloads/calendar_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ccd6bf5bc6af0459d4afa6e2549dfdcbe43abf4d
+file.0=/Users/LuckyNguyen/Downloads/calendar_app-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4833175e4fb554c15d77688dcbe9e7022da6f56e/classes.dex

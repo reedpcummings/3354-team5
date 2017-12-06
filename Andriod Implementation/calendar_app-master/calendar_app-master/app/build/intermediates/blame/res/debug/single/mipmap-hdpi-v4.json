@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/LuckyNguyen/Downloads/calendar_app-master/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/backbutton.png",
+        "source": "/Users/LuckyNguyen/Downloads/calendar_app-master/app/src/main/res/mipmap-hdpi/backbutton.png"
+    },
+    {
+        "merged": "/Users/LuckyNguyen/Downloads/calendar_app-master/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
+        "source": "/Users/LuckyNguyen/Downloads/calendar_app-master/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]
