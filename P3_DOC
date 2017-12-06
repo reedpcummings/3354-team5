@@ -1,0 +1,41 @@
+Design Pattern used
+ 1.) Model View Controller
+      - Can be seen through the implementation. Controllers are the classes that add the functionality and control the
+        controls of the model. They include the different adaptors to manipulate the views, i.e BaseCalendarAdaptor, 
+        CalendarListAdaptor, WeeklyCalendarAdaptor. The Views are the classes that show the individual views in Daily, Weekly, 
+        Monthly  and List. Include dailyActivityView, CalendarWeeklyView, addEvent, eventOverview, updateOverview, 
+        CalendarMainActivity, ListViewActivity. The Model are the classes define the current state of the program which 
+        is the DBAdaptor.
+        
+  2.) The four test cases by each member should be in the root repository identified as test case for a specific method.
+  
+  3.) To build the software open AndroidStudios and import the project. Download all necessary tools and updates to the 
+      IDE. If there are any build problems try and use AndroidStudios recommended fixes, they should do automatically fix
+      any of the build problems. If you still have trouble feel free to contact us through email. When the source code is 
+      imported succesfully to the IDE, open up a Android Virtual Device. Once the device is done loading, compile and run 
+      the code. The code should automatically connect with the Virtual Device and run the application. 
+      
+      Views
+      The initial page the calendar opens up to is a list view page. This view shows all the possible events within the 
+      database. Since there is no events in the database, the list view is empty as well as all the other views. At the 
+      top below the title Calendar, there are 5 options to choose from. From the left, the first button is the list view, 
+      which you should already be on. The second button is the monthly view. The third button is the weekly view. The 
+      fourth button is the daily view, but this only shows the events of the current day. The last button is the add event 
+      button. In the monthly view, a highlighted blue indicates the current day. When you select a day, the box turns grey. 
+      The monthly view has two buttons a previous and next button, for going back and forth the months. The weekly view has 
+      similar functionality except that the view goes back only one week. The month only changes when the days of the previous 
+      months are reached. 
+      
+      Add Event
+      Like said earlier, to add an event click the top right button that looks like a plus sign. This goes into the add event
+      page. From this view, we can still access all the the buttons from before at startup. This view has 3 text boxes. One 
+      for the name of the event, the location, and the description of the event. To choose the date, there is white text that
+      is clickable. Once clicked, it opens the a calendar dialog box that allows you to choose a date. Click on a date, then 
+      either confirm or cancel. To choose a start time, click the start time text. This opens a time dialog box that can 
+      either be entered through a drag and drop time clock, or a keyboard input shown at the bottom left corner. Last option
+      is to choose a color option to help indicate an event on the calendar views. All fields must be filled, if not a pop up 
+      comes up and indicates which fields are empty. Additionally there is an option to go back and cancel the add event on
+      the top left. If all the information wanted is in, click the top right button that looks like a plus sign to add the 
+      event. 
+      
+      After an event is added that event is able to be seen through all the views of the application.
