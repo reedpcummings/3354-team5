@@ -18,6 +18,7 @@ Reed Cummings
 Brian Bell
 	24%
 	Led testing effort before presentation
+	Refactored addEvent method onTimeSet
 	Mathmatical research for date calculations
 	Wrote test for OnTimeSet.java
 		Discovered and fixed bug
