@@ -33,7 +33,11 @@ public class onDateSetTest {
 	@Parameterized.Parameters
 	public static Collection<Object[]> valuePairs() {
 		return Arrays.asList(new Object[][] {
-			{2010,5,1, "05/01/2010"},
+			{2010,5,1, "06/01/2010"},{2010,0,1, "01/01/2010"},
+			// leap days
+			{2000,1,29, "02/29/2000"},{2004,1,29, "02/29/2004"},{2008,1,29, "02/29/2008"},{2012,1,29, "02/29/2012"},
+			// boundary check
+			{1900,0,1, "01/01/1900"}
 		} );
 	}
 

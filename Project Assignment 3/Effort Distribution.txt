@@ -1,0 +1,32 @@
+Anhquan Nguyenn
+	30%   
+	Led the Android Implementation
+	Wrote P3 Document
+	Continual testing through entire project life cycle
+	Wrote errmsgNamesToStringTest.java
+	Wrote DBAdapterTest.java
+	
+Reed Cummings
+	24%
+	Led task distribution
+	Led Desktop implementation
+	Maintained code comment standards
+	Maintained MVC design pattern
+	Wrote updateDateUnitTest.java
+	
+
+Brian Bell
+	24%
+	Led testing effort before presentation
+	Mathmatical research for date calculations
+	Wrote test for OnTimeSet.java
+		Discovered and fixed bug
+
+Alex Lundin
+	23%
+	Led artifact collection
+	Led meeting coordination
+	Maintained folder structure between all commits
+	Wrote test for OnDateSetTest.java
+	Documented instruction set for all tests
+	Maintained MVC design pattern of Desktop Implementation

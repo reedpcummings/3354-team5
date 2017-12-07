@@ -1,0 +1,32 @@
+Test Case Instructions
+
+1.) CalendarProjectUnitTest
+	Developed in Eclipse.
+
+	Steps to run
+	Load Junit 4:
+
+		Right click on the project.
+		Choose Build Path Then from its menu choose Add Libraries.
+		Choose JUnit then click Next.
+		Choose JUnit4 then Finish.
+
+2.) DBAdapterTest
+	Standalone java file
+
+3.) errmsgNamesToStringTest
+	Standalone java file
+	
+4.) OnDateSetTest
+	Developed in Eclipse.
+
+	Steps to run
+	Load Junit 4:
+
+		Right click on the project.
+		Choose Build Path Then from its menu choose Add Libraries.
+		Choose JUnit then click Next.
+		Choose JUnit4 then Finish.
+
+5.) updateDateUnitTest
+	Standalone java file
