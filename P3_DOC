@@ -7,7 +7,9 @@ Design Pattern used
         CalendarMainActivity, ListViewActivity. The Model are the classes define the current state of the program which 
         is the DBAdaptor.
         
-  2.) The four test cases by each member should be in the root repository identified as test case for a specific method.
+  2.) The test cases, atleast one from each member, are in the Project Assignment 3 folder identified as test case for a specific method.
+      There are instructions documented as well.
+      3354-team5\Project Assignment 3
   
   3.) To build the software open AndroidStudios and import the project. Download all necessary tools and updates to the 
       IDE. If there are any build problems try and use AndroidStudios recommended fixes, they should do automatically fix
